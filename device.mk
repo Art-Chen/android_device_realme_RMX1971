@@ -30,25 +30,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from Realme sdm710-common
 $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
-# Camera Helper
-PRODUCT_PACKAGES += \
-    RealmeCameraHelper
-
-# camera Motor
-PRODUCT_PACKAGES += \
-    vendor.mokee.camera.motor@1.0-service.realme_sdm710
-
-# Config panel
-PRODUCT_PACKAGES += \
-    ConfigPanel
-
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.mokee.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
-PRODUCT_COPY_FILES += \
-    vendor/mk/config/permissions/vendor.mokee.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.mokee.biometrics.fingerprint.inscreen.xml
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -56,11 +41,6 @@ PRODUCT_COPY_FILES += \
 
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
-
-# Sensors
-PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-service \
-    android.hardware.sensors@1.0-impl.realme_sdm710
 
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
