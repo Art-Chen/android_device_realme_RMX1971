@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_RMX1901.mk
+    $(LOCAL_DIR)/mk_RMX1971.mk
