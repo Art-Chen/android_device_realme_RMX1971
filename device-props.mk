@@ -1,6 +1,7 @@
 # Display density
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=420
+    ro.sf.lcd_density=420 \
+    ro.hardware.touchscreen.updatefw=1
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
