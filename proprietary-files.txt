@@ -285,4 +285,4 @@ vendor/firmware/emmc/move_target_emmc_fw_to_opporeserve1.sh
 
 # dpAP Firmware
 vendor/firmware/dpAP_full.mbn
-Vendor/firmware/dpAP_mini.mbn
+vendor/firmware/dpAP_mini.mbn
