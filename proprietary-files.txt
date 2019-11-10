@@ -17,7 +17,7 @@ vendor/firmware/tfa98xx.cnt
 
 # Camera
 vendor/etc/camera/arc_golden.bin
-vendor/etc/camera/distortionParam.bin
+vendor/etc/camera/distortionParams.bin
 vendor/etc/camera/mtStereoParams.bin
 vendor/etc/camera/mwStereoParams.bin
 vendor/etc/camera/oppo_camera_config.xml
