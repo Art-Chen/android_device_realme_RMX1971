@@ -175,8 +175,8 @@ vendor/firmware/facereg.b04
 vendor/firmware/facereg.b03
 
 # Fast Charge Firmware
-vendor/firmware/fastchg/19697/oppo_vooc_fw_n76e.bin
-vendor/firmware/fastchg/19697/oppo_vooc_fw.bin
+vendor/firmware/fastchg/19691/oppo_vooc_fw_n76e.bin
+vendor/firmware/fastchg/19691/oppo_vooc_fw.bin
 
 # Fingerprint
 
