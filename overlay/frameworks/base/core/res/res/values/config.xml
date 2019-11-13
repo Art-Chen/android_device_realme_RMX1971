@@ -125,4 +125,6 @@
         <item>255</item>
     </integer-array>
 
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 </resources>
