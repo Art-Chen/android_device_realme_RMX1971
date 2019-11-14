@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mk_RMX1971.mk
+    $(LOCAL_DIR)/mokee_RMX1971.mk
+
+COMMON_LUNCH_CHOICES := \
+    mokee_RMX1971-user \
+    mokee_RMX1971-userdebug \
+    mokee_RMX1971-eng

@@ -5,14 +5,14 @@
 #
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := mk_RMX1971
+PRODUCT_NAME := mokee_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme Q
 PRODUCT_MANUFACTURER := Realme
